@@ -1,3 +1,6 @@
+# Course Notes / Study Materials
+
+Add, view/search, edit and delete course study materials/notes.
 # Student Account Management + Home/Landing Page
 
 Student registration, list/search, edit and delete. Home page/landing page ownership is also assigned to Member 1. The original UI files are copied unchanged for reference.
@@ -5,6 +8,11 @@ Student registration, list/search, edit and delete. Home page/landing page owner
 ## Files in this member folder
 These are reference copies of the corresponding files from the complete working IntelliJ project. Keep Java package names (`com.learnhub...`) unchanged when merging changes.
 
+- `entity/Note.java`
+- `controller/NoteController.java`
+- `repository/NoteRepository.java`
+- `service/NoteService.java`
+- `dto/NoteDto.java`
 - `entity/Customer.java`
 - `controller/CustomerController.java`
 - `repository/CustomerRepository.java`
