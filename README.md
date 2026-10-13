@@ -1,3 +1,6 @@
+# Course Feedback / Reviews
+
+The existing project stores feedback/support in Tickets (subject, message, status, reply). Map feedback comments and review handling here; do not rename endpoints without coordinating the team.
 # Homework / Assignments
 
 The existing project models lessons/assignment instructions with the Lesson module. Map this module to the assignment tasks described in the PDF.
@@ -14,6 +17,11 @@ Student registration, list/search, edit and delete. Home page/landing page owner
 ## Files in this member folder
 These are reference copies of the corresponding files from the complete working IntelliJ project. Keep Java package names (`com.learnhub...`) unchanged when merging changes.
 
+- `entity/Ticket.java`
+- `controller/TicketController.java`
+- `repository/TicketRepository.java`
+- `service/TicketService.java`
+- `dto/TicketDto.java`
 - `entity/Lesson.java`
 - `controller/LessonController.java`
 - `repository/LessonRepository.java`
