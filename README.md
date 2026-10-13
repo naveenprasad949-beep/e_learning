@@ -1,3 +1,6 @@
+# Homework / Assignments
+
+The existing project models lessons/assignment instructions with the Lesson module. Map this module to the assignment tasks described in the PDF.
 # Course Enrollment
 
 Create/view/search/update/drop course enrollments.
@@ -11,6 +14,11 @@ Student registration, list/search, edit and delete. Home page/landing page owner
 ## Files in this member folder
 These are reference copies of the corresponding files from the complete working IntelliJ project. Keep Java package names (`com.learnhub...`) unchanged when merging changes.
 
+- `entity/Lesson.java`
+- `controller/LessonController.java`
+- `repository/LessonRepository.java`
+- `service/LessonService.java`
+- `dto/LessonDto.java`
 - `entity/Enrollment.java`
 - `controller/EnrollmentController.java`
 - `repository/EnrollmentRepository.java`
