@@ -1,3 +1,6 @@
+# Course Enrollment
+
+Create/view/search/update/drop course enrollments.
 # Course Notes / Study Materials
 
 Add, view/search, edit and delete course study materials/notes.
@@ -8,6 +11,11 @@ Student registration, list/search, edit and delete. Home page/landing page owner
 ## Files in this member folder
 These are reference copies of the corresponding files from the complete working IntelliJ project. Keep Java package names (`com.learnhub...`) unchanged when merging changes.
 
+- `entity/Enrollment.java`
+- `controller/EnrollmentController.java`
+- `repository/EnrollmentRepository.java`
+- `service/EnrollmentService.java`
+- `dto/EnrollmentDto.java`
 - `entity/Note.java`
 - `controller/NoteController.java`
 - `repository/NoteRepository.java`
